@@ -592,6 +592,11 @@ footer {
   .pix-body { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .pricing-amount { font-size: 48px; }
+  #app-para-artistas .card { padding: 18px 16px; }
+  #app-para-artistas [style*="grid-template-columns:repeat(3"] { grid-template-columns: 1fr !important; }
+  #app-para-artistas [style*="grid-template-columns:1fr 1fr;gap:20px"] { grid-template-columns: 1fr !important; }
+  #app-para-artistas [style*="grid-template-columns:1fr 1fr;gap:24px"] { grid-template-columns: 1fr !important; }
+  #app-para-artistas [style*="grid-template-columns:repeat(4"] { grid-template-columns: 1fr 1fr !important; }
 }
 </style>
 </head>
@@ -606,6 +611,7 @@ footer {
       <a class="nav-link" href="#precos">Preços</a>
       <a class="nav-link" href="#pagamento">Pagamento</a>
       <a class="nav-link" href="#registrar">Registrar obra</a>
+      <a class="nav-link" href="#app-para-artistas" style="color:var(--pix);font-weight:700;">📱 App p/ artistas</a>
     </div>
     <a class="nav-cta" href="#registrar">Começar →</a>
   </nav>
@@ -757,7 +763,7 @@ footer {
           <div class="faq-arrow">▼</div>
         </div>
         <div class="faq-a">
-          O pagamento é feito via <strong>Pix</strong>, no valor de <strong>R$ 10 por registro</strong>. Após confirmar o pagamento, você envia o comprovante para <a href="mailto:autenticarq.digital@gmail.com">autenticarq.digital@gmail.com</a> com seu e-mail de cadastro (Google). Após a verificação manual — geralmente em até <strong>2 horas em dias úteis</strong> — um crédito é liberado na sua conta e você pode gerar o certificado.
+          O pagamento é feito via <strong>Pix</strong>, no valor de <strong>R$ 10 por registro</strong>. Após confirmar o pagamento, você envia o comprovante para <a href="/cdn-cgi/l/email-protection#f2938786979c869b91938083dc969b959b86939eb2959f939b9edc919d9f"><span class="__cf_email__" data-cfemail="f9988c8d9c978d909a988b88d79d909e908d9895b99e94989095d79a9694">[email&#160;protected]</span></a> com seu e-mail de cadastro (Google). Após a verificação manual — geralmente em até <strong>2 horas em dias úteis</strong> — um crédito é liberado na sua conta e você pode gerar o certificado.
         </div>
       </div>
     </div>
@@ -846,7 +852,7 @@ footer {
           </div>
           <div class="pix-step">
             <div class="pix-step-num">3</div>
-            <div>Envie o <strong>comprovante</strong> para <a href="mailto:autenticarq.digital@gmail.com" style="color:var(--gold);font-weight:700;">autenticarq.digital@gmail.com</a> com o seu e-mail de cadastro Google no assunto.</div>
+            <div>Envie o <strong>comprovante</strong> para <a href="/cdn-cgi/l/email-protection#f3928687969d879a90928182dd979a949a87929fb3949e929a9fdd909c9e" style="color:var(--gold);font-weight:700;"><span class="__cf_email__" data-cfemail="c7a6b2b3a2a9b3aea4a6b5b6e9a3aea0aeb3a6ab87a0aaa6aeabe9a4a8aa">[email&#160;protected]</span></a> com o seu e-mail de cadastro Google no assunto.</div>
           </div>
           <div class="pix-step">
             <div class="pix-step-num">4</div>
@@ -1068,6 +1074,335 @@ footer {
 
   </div><!-- /mainForm -->
 
+  <!-- ══ PWA SERVICES SECTION ══════════════════════════════════════ -->
+  <section id="app-para-artistas" style="margin-bottom:60px;">
+    <div class="section-divider">✦ &nbsp; APPS PARA ARTISTAS &nbsp; ✦</div>
+
+    <!-- Hero da seção -->
+    <div style="text-align:center;margin-bottom:40px;">
+      <div class="hero-badge" style="margin-bottom:16px;">📱 Novo Serviço</div>
+      <div class="info-section-title">Seu próprio <em>aplicativo</em><br>no celular dos seus fãs</div>
+      <p class="info-section-sub" style="max-width:560px;margin:12px auto 0;">
+        Desenvolvemos apps profissionais para cantores, compositores e artistas. Disponível no Android, iPhone e computador — sem precisar de loja de aplicativos.
+      </p>
+    </div>
+
+    <!-- Mockup visual -->
+    <div style="background:linear-gradient(135deg,#1a1208 0%,#2d1e08 50%,#1a1208 100%);border-radius:24px;padding:48px 36px;margin-bottom:40px;position:relative;overflow:hidden;">
+      <!-- Decoração de fundo -->
+      <div style="position:absolute;inset:0;opacity:0.04;background:repeating-linear-gradient(45deg,transparent,transparent 30px,rgba(184,134,11,0.5) 30px,rgba(184,134,11,0.5) 31px);"></div>
+      <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(184,134,11,0.15),transparent 70%);"></div>
+
+      <div style="position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;align-items:start;">
+
+        <!-- Tela 1: Home do artista -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px;">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;color:rgba(212,160,23,0.7);letter-spacing:2px;text-transform:uppercase;">Tela Inicial</div>
+          <div style="width:160px;background:#0f0a04;border-radius:24px;border:3px solid rgba(184,134,11,0.3);overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.6);">
+            <!-- Status bar -->
+            <div style="background:#1a1208;padding:8px 14px 6px;display:flex;justify-content:space-between;font-size:9px;color:rgba(255,255,255,0.4);font-family:'DM Mono',monospace;">
+              <span>9:41</span><span>●●●</span>
+            </div>
+            <!-- Banner do artista -->
+            <div style="height:80px;background:linear-gradient(135deg,#b8860b,#8b3a0f);display:flex;align-items:center;justify-content:center;position:relative;">
+              <div style="text-align:center;">
+                <div style="width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.2);border:2px solid rgba(255,255,255,0.4);margin:0 auto 4px;display:flex;align-items:center;justify-content:center;font-size:20px;">🎤</div>
+              </div>
+            </div>
+            <!-- Nome -->
+            <div style="padding:10px 12px 6px;text-align:center;">
+              <div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">Paulo Oliveira</div>
+              <div style="font-size:8px;color:rgba(255,255,255,0.4);">Compositor · MPB · Bahia</div>
+            </div>
+            <!-- Stats -->
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(255,255,255,0.05);margin:0 10px 10px;">
+              <div style="background:#0f0a04;padding:6px 4px;text-align:center;">
+                <div style="font-size:11px;font-weight:700;color:#d4a017;">127</div>
+                <div style="font-size:7px;color:rgba(255,255,255,0.3);">músicas</div>
+              </div>
+              <div style="background:#0f0a04;padding:6px 4px;text-align:center;">
+                <div style="font-size:11px;font-weight:700;color:#d4a017;">4.2k</div>
+                <div style="font-size:7px;color:rgba(255,255,255,0.3);">seguidores</div>
+              </div>
+              <div style="background:#0f0a04;padding:6px 4px;text-align:center;">
+                <div style="font-size:11px;font-weight:700;color:#d4a017;">18</div>
+                <div style="font-size:7px;color:rgba(255,255,255,0.3);">shows</div>
+              </div>
+            </div>
+            <!-- Menu items -->
+            <div style="padding:0 10px 12px;display:flex;flex-direction:column;gap:5px;">
+              <div style="background:rgba(184,134,11,0.15);border:1px solid rgba(184,134,11,0.2);border-radius:6px;padding:6px 8px;display:flex;align-items:center;gap:6px;">
+                <span style="font-size:10px;">🎵</span><span style="font-size:9px;color:#d4a017;font-weight:600;">Minhas Músicas</span>
+              </div>
+              <div style="background:rgba(255,255,255,0.04);border-radius:6px;padding:6px 8px;display:flex;align-items:center;gap:6px;">
+                <span style="font-size:10px;">📅</span><span style="font-size:9px;color:rgba(255,255,255,0.6);">Agenda de Shows</span>
+              </div>
+              <div style="background:rgba(255,255,255,0.04);border-radius:6px;padding:6px 8px;display:flex;align-items:center;gap:6px;">
+                <span style="font-size:10px;">🛒</span><span style="font-size:9px;color:rgba(255,255,255,0.6);">Loja do Artista</span>
+              </div>
+            </div>
+            <!-- Nav bar -->
+            <div style="background:#1a1208;border-top:1px solid rgba(255,255,255,0.06);padding:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;">
+              <div style="text-align:center;font-size:14px;">🏠</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">🎵</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">📅</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">👤</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tela 2: Player de músicas -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:30px;">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;color:rgba(212,160,23,0.7);letter-spacing:2px;text-transform:uppercase;">Player de Músicas</div>
+          <div style="width:160px;background:#0f0a04;border-radius:24px;border:3px solid rgba(184,134,11,0.5);overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,0.7);">
+            <div style="background:#1a1208;padding:8px 14px 6px;display:flex;justify-content:space-between;font-size:9px;color:rgba(255,255,255,0.4);font-family:'DM Mono',monospace;">
+              <span>9:41</span><span>●●●</span>
+            </div>
+            <div style="height:100px;background:linear-gradient(135deg,#4a6741,#2d4a28);display:flex;align-items:center;justify-content:center;font-size:36px;">🎼</div>
+            <div style="padding:12px;text-align:center;">
+              <div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:3px;">Canção da Saudade</div>
+              <div style="font-size:8px;color:rgba(255,255,255,0.4);margin-bottom:12px;">Paulo Oliveira · 2024</div>
+              <!-- Progress bar -->
+              <div style="height:3px;background:rgba(255,255,255,0.1);border-radius:2px;margin-bottom:4px;position:relative;">
+                <div style="height:100%;width:40%;background:linear-gradient(90deg,#b8860b,#d4a017);border-radius:2px;"></div>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:7px;color:rgba(255,255,255,0.3);margin-bottom:12px;">
+                <span>1:24</span><span>3:42</span>
+              </div>
+              <!-- Controls -->
+              <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:10px;">
+                <span style="font-size:14px;opacity:0.5;">⏮</span>
+                <div style="width:32px;height:32px;border-radius:50%;background:#d4a017;display:flex;align-items:center;justify-content:center;font-size:14px;">⏸</div>
+                <span style="font-size:14px;opacity:0.5;">⏭</span>
+              </div>
+              <!-- Lyrics badge -->
+              <div style="background:rgba(184,134,11,0.15);border:1px solid rgba(184,134,11,0.2);border-radius:4px;padding:4px 8px;font-size:8px;color:#d4a017;">📝 Ver letra / cifra</div>
+            </div>
+            <div style="background:#1a1208;border-top:1px solid rgba(255,255,255,0.06);padding:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;">
+              <div style="text-align:center;font-size:14px;opacity:0.4;">🏠</div>
+              <div style="text-align:center;font-size:14px;">🎵</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">📅</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">👤</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tela 3: Agenda / Analytics -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px;">
+          <div style="font-family:'DM Mono',monospace;font-size:10px;color:rgba(212,160,23,0.7);letter-spacing:2px;text-transform:uppercase;">Agenda & Analytics</div>
+          <div style="width:160px;background:#0f0a04;border-radius:24px;border:3px solid rgba(184,134,11,0.3);overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.6);">
+            <div style="background:#1a1208;padding:8px 14px 6px;display:flex;justify-content:space-between;font-size:9px;color:rgba(255,255,255,0.4);font-family:'DM Mono',monospace;">
+              <span>9:41</span><span>●●●</span>
+            </div>
+            <div style="padding:10px 12px;">
+              <div style="font-size:10px;font-weight:700;color:#d4a017;margin-bottom:10px;">📅 Próximos Shows</div>
+              <div style="display:flex;flex-direction:column;gap:5px;margin-bottom:12px;">
+                <div style="background:rgba(74,103,65,0.2);border-left:2px solid #4a6741;border-radius:4px;padding:5px 7px;">
+                  <div style="font-size:8px;font-weight:700;color:#6ee7b7;">15 Mar</div>
+                  <div style="font-size:8px;color:rgba(255,255,255,0.7);">Teatro Castro Alves</div>
+                  <div style="font-size:7px;color:rgba(255,255,255,0.3);">Salvador · BA</div>
+                </div>
+                <div style="background:rgba(184,134,11,0.1);border-left:2px solid #b8860b;border-radius:4px;padding:5px 7px;">
+                  <div style="font-size:8px;font-weight:700;color:#d4a017;">22 Mar</div>
+                  <div style="font-size:8px;color:rgba(255,255,255,0.7);">Festival de Música</div>
+                  <div style="font-size:7px;color:rgba(255,255,255,0.3);">Feira de Santana · BA</div>
+                </div>
+              </div>
+              <!-- Mini analytics -->
+              <div style="font-size:10px;font-weight:700;color:#d4a017;margin-bottom:8px;">📊 Esta semana</div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:8px;">
+                <div style="background:rgba(255,255,255,0.04);border-radius:4px;padding:6px;text-align:center;">
+                  <div style="font-size:12px;font-weight:700;color:#93c5fd;">342</div>
+                  <div style="font-size:7px;color:rgba(255,255,255,0.3);">visitas</div>
+                </div>
+                <div style="background:rgba(255,255,255,0.04);border-radius:4px;padding:6px;text-align:center;">
+                  <div style="font-size:12px;font-weight:700;color:#6ee7b7;">89</div>
+                  <div style="font-size:7px;color:rgba(255,255,255,0.3);">plays</div>
+                </div>
+              </div>
+              <!-- Bar chart mini -->
+              <div style="display:flex;align-items:flex-end;gap:3px;height:28px;margin-bottom:4px;">
+                <div style="flex:1;background:#b8860b;border-radius:2px 2px 0 0;height:40%;"></div>
+                <div style="flex:1;background:#b8860b;border-radius:2px 2px 0 0;height:65%;"></div>
+                <div style="flex:1;background:#b8860b;border-radius:2px 2px 0 0;height:45%;"></div>
+                <div style="flex:1;background:#d4a017;border-radius:2px 2px 0 0;height:80%;"></div>
+                <div style="flex:1;background:#b8860b;border-radius:2px 2px 0 0;height:55%;"></div>
+                <div style="flex:1;background:#b8860b;border-radius:2px 2px 0 0;height:90%;"></div>
+                <div style="flex:1;background:rgba(184,134,11,0.3);border-radius:2px 2px 0 0;height:35%;"></div>
+              </div>
+              <div style="font-size:7px;color:rgba(255,255,255,0.2);text-align:center;">Seg · Ter · Qua · Qui · Sex · Sáb · Dom</div>
+            </div>
+            <div style="background:#1a1208;border-top:1px solid rgba(255,255,255,0.06);padding:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;">
+              <div style="text-align:center;font-size:14px;opacity:0.4;">🏠</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">🎵</div>
+              <div style="text-align:center;font-size:14px;">📅</div>
+              <div style="text-align:center;font-size:14px;opacity:0.4;">👤</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Caption -->
+      <div style="position:relative;z-index:1;text-align:center;margin-top:28px;">
+        <div style="font-size:12px;color:rgba(255,255,255,0.4);font-family:'DM Mono',monospace;">Ilustração · App real desenvolvido para Paulo Oliveira · Compositor Baiano</div>
+      </div>
+    </div>
+
+    <!-- Por que ter um app? -->
+    <div style="margin-bottom:36px;">
+      <div class="info-section-title" style="margin-bottom:8px;">Por que todo artista precisa<br>de um <em>app próprio</em>?</div>
+      <p class="info-section-sub" style="margin-bottom:32px;">Imagine seus fãs abrindo o seu nome direto da tela do celular deles — sem digitar nada, sem depender do Instagram ou YouTube.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px;">
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">📱</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Ícone na tela do fã</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Seu nome aparece no celular dos seus fãs como qualquer app — ao lado do WhatsApp, Spotify e Instagram. Um toque e eles já estão no seu universo.</div>
+        </div>
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">📊</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Você sabe quem te ouve</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Com Google Analytics integrado, você vê de qual cidade vêm seus fãs, quais músicas mais ouvem, em qual horário acessam — informação de ouro para sua carreira.</div>
+        </div>
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">🔔</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Notificações para seus fãs</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Lançou música nova? Tem show marcado? Mande uma notificação direto para o celular dos seus fãs — sem pagar por anúncio, sem depender do algoritmo.</div>
+        </div>
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">🎵</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Suas músicas, letras e cifras</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Tudo em um só lugar: suas músicas para ouvir, letras para ler, cifras para tocar. Seus fãs e músicos que te admiram agradecem.</div>
+        </div>
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">📅</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Agenda de shows</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Divulgue datas, locais e ingressos dos seus shows diretamente pelo app. Seus fãs ficam sempre informados e não perdem nenhuma apresentação.</div>
+        </div>
+
+        <div class="card" style="text-align:center;padding:24px 20px;">
+          <div style="font-size:36px;margin-bottom:12px;">🛒</div>
+          <div style="font-family:'Playfair Display',serif;font-size:15px;font-weight:700;margin-bottom:8px;">Loja e contato direto</div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.6;">Venda produtos, CDs, camisetas ou cursos. Receba propostas de show e parcerias diretamente no app — sem depender de assessor ou intermediário.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Diferença explicada para leigos -->
+    <div style="background:var(--paper2);border:1px solid var(--border);border-radius:16px;padding:28px 32px;margin-bottom:36px;">
+      <div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;margin-bottom:16px;text-align:center;">
+        🤔 "Mas eu já tenho Instagram e página no Facebook..."
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <div style="background:#fff;border:1px solid var(--border);border-radius:10px;padding:18px;">
+          <div style="font-size:14px;font-weight:700;color:var(--rust);margin-bottom:10px;">❌ Sem app próprio</div>
+          <div style="display:flex;flex-direction:column;gap:7px;font-size:13px;color:var(--muted);line-height:1.5;">
+            <div>• Você depende do algoritmo do Instagram para aparecer para seus fãs</div>
+            <div>• Não sabe quantas pessoas te ouvem de verdade</div>
+            <div>• Não pode mandar mensagem direto para seus seguidores</div>
+            <div>• Se a rede social mudar ou fechar, você perde tudo</div>
+            <div>• Parece amador para contratantes e produtores</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:1px solid rgba(74,103,65,0.25);border-radius:10px;padding:18px;">
+          <div style="font-size:14px;font-weight:700;color:var(--sage);margin-bottom:10px;">✅ Com app próprio</div>
+          <div style="display:flex;flex-direction:column;gap:7px;font-size:13px;color:var(--muted);line-height:1.5;">
+            <div>• Você fala com seus fãs quando quiser, sem pagar anúncio</div>
+            <div>• Sabe exatamente quem te ouve, de onde, e o quê</div>
+            <div>• Seu nome no celular dos fãs — como Spotify e YouTube</div>
+            <div>• Informação é sua, nunca perde</div>
+            <div>• Transmite profissionalismo para contratantes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing do serviço PWA -->
+    <div style="background:linear-gradient(135deg,var(--ink) 0%,#2d1e08 100%);border-radius:20px;padding:40px 36px;text-align:center;position:relative;overflow:hidden;margin-bottom:12px;">
+      <div style="position:absolute;inset:0;opacity:0.04;background:repeating-linear-gradient(45deg,transparent,transparent 20px,rgba(184,134,11,0.5) 20px,rgba(184,134,11,0.5) 21px);"></div>
+      <div style="position:relative;z-index:1;">
+        <div style="display:inline-block;background:rgba(212,160,23,0.2);color:var(--gold2);border:1px solid rgba(212,160,23,0.3);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 14px;border-radius:20px;margin-bottom:20px;">App para Artistas · PWA</div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:560px;margin:0 auto 28px;">
+          <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px 20px;">
+            <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px;">Desenvolvimento</div>
+            <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:900;color:var(--gold2);line-height:1;margin-bottom:4px;"><span style="font-size:18px;vertical-align:super;">R$</span>1.200</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:14px;">pagamento único</div>
+            <div style="display:flex;flex-direction:column;gap:6px;text-align:left;">
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Design exclusivo</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Player de músicas</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Letras e cifras</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Agenda de shows</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Notificações push</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Google Analytics</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Android + iPhone + PC</div>
+            </div>
+          </div>
+          <div style="background:rgba(184,134,11,0.1);border:1px solid rgba(184,134,11,0.3);border-radius:14px;padding:24px 20px;">
+            <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px;">Manutenção mensal</div>
+            <div style="font-family:'Playfair Display',serif;font-size:40px;font-weight:900;color:var(--gold2);line-height:1;margin-bottom:4px;"><span style="font-size:18px;vertical-align:super;">R$</span>79</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:14px;">por mês</div>
+            <div style="display:flex;flex-direction:column;gap:6px;text-align:left;">
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Hospedagem inclusa</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Atualizações de músicas</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Suporte via WhatsApp</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Relatório mensal Analytics</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.7);display:flex;gap:6px;"><span>✦</span>Backup automático</div>
+            </div>
+          </div>
+        </div>
+
+        <a href="mailto:autenticarq.digital@gmail.com?subject=Quero%20um%20app%20para%20minha%20carreira&body=Olá!%20Tenho%20interesse%20em%20desenvolver%20um%20app%20PWA%20para%20minha%20carreira%20artística.%20Pode%20me%20passar%20mais%20informações?" class="btn btn-pix" style="display:inline-flex;max-width:360px;text-decoration:none;">
+          📱 Quero meu app — falar com especialista
+        </a>
+        <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:16px;line-height:1.6;">
+          Resposta em até 24h · Sem compromisso · Orçamento personalizado disponível<br>
+          Funciona em Android, iPhone e computador sem precisar de loja de aplicativos
+        </div>
+      </div>
+    </div>
+
+    <!-- Exemplos de quem já usa -->
+    <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px 28px;">
+      <div style="font-family:'Playfair Display',serif;font-size:16px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:10px;">
+        🏆 Grandes artistas já usam essa tecnologia
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;">
+        <div style="text-align:center;padding:12px;background:var(--paper2);border-radius:8px;">
+          <div style="font-size:24px;margin-bottom:6px;">🐦</div>
+          <div style="font-size:12px;font-weight:700;">Twitter</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px;">App instalável sem loja</div>
+        </div>
+        <div style="text-align:center;padding:12px;background:var(--paper2);border-radius:8px;">
+          <div style="font-size:24px;margin-bottom:6px;">🚗</div>
+          <div style="font-size:12px;font-weight:700;">Uber</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px;">Versão PWA global</div>
+        </div>
+        <div style="text-align:center;padding:12px;background:var(--paper2);border-radius:8px;">
+          <div style="font-size:24px;margin-bottom:6px;">💼</div>
+          <div style="font-size:12px;font-weight:700;">Forbes</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px;">Leitura offline</div>
+        </div>
+        <div style="text-align:center;padding:12px;background:var(--paper2);border-radius:8px;">
+          <div style="font-size:24px;margin-bottom:6px;">💘</div>
+          <div style="font-size:12px;font-weight:700;">Tinder</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px;">75M usuários/mês</div>
+        </div>
+      </div>
+      <div style="font-size:12px;color:var(--muted);margin-top:14px;text-align:center;line-height:1.6;">
+        Se funciona para gigantes como esses, imagina o que faz pela sua carreira artística — com um app exclusivo, no seu nome, com sua cara.
+      </div>
+    </div>
+
+  </section>
+
   <!-- ══ FOOTER ══════════════════════════════════════ -->
   <footer>
     <div class="footer-logo"><div class="nav-logo-dot"></div>AutorSelo</div>
@@ -1076,9 +1411,10 @@ footer {
       <a class="footer-link" href="#" onclick="openModal('termsModal');return false;">Termos de Uso</a>
       <a class="footer-link" href="#" onclick="openModal('legalModal');return false;">Base Legal — Direitos Autorais</a>
       <a class="footer-link" href="#pagamento">Pagamento</a>
+      <a class="footer-link" href="#app-para-artistas">App para Artistas</a>
     </div>
     <div class="footer-contact">
-      Dúvidas e suporte: <a href="mailto:autenticarq.digital@gmail.com">autenticarq.digital@gmail.com</a>
+      Dúvidas e suporte: <a href="/cdn-cgi/l/email-protection#375642435259435e5456454619535e505e43565b77505a565e5b1954585a"><span class="__cf_email__" data-cfemail="a8c9dddccdc6dcc1cbc9dad986ccc1cfc1dcc9c4e8cfc5c9c1c486cbc7c5">[email&#160;protected]</span></a>
     </div>
     <div class="footer-copy">
       © 2025 AutorSelo · Certificação digital de autoria · Todos os direitos reservados
@@ -1139,7 +1475,7 @@ footer {
         <li>Solicitar a correção ou exclusão dos seus dados.</li>
         <li>Revogar o consentimento a qualquer momento (basta sair da conta).</li>
       </ul>
-      <p>Para exercer esses direitos, entre em contato: <a href="mailto:autenticarq.digital@gmail.com">autenticarq.digital@gmail.com</a></p>
+      <p>Para exercer esses direitos, entre em contato: <a href="/cdn-cgi/l/email-protection#98f9edecfdf6ecf1fbf9eae9b6fcf1fff1ecf9f4d8fff5f9f1f4b6fbf7f5"><span class="__cf_email__" data-cfemail="d9b8acadbcb7adb0bab8aba8f7bdb0beb0adb8b599beb4b8b0b5f7bab6b4">[email&#160;protected]</span></a></p>
 
       <h2>7. Cookies e rastreamento</h2>
       <p>Não utilizamos cookies de rastreamento ou publicidade. O Firebase pode utilizar cookies técnicos para manter a sessão de autenticação.</p>
@@ -1148,7 +1484,7 @@ footer {
       <p>Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos usuários sobre mudanças significativas via e-mail ou aviso na plataforma.</p>
 
       <h2>9. Contato</h2>
-      <p>Dúvidas sobre privacidade: <a href="mailto:autenticarq.digital@gmail.com">autenticarq.digital@gmail.com</a></p>
+      <p>Dúvidas sobre privacidade: <a href="/cdn-cgi/l/email-protection#33524647565d475a505241421d575a545a47525f73545e525a5f1d505c5e"><span class="__cf_email__" data-cfemail="9effebeafbf0eaf7fdffecefb0faf7f9f7eafff2def9f3fff7f2b0fdf1f3">[email&#160;protected]</span></a></p>
     </div>
     <div class="modal-footer">
       <button class="btn btn-ink" onclick="closeModal('privacyModal')">Entendi</button>
@@ -1203,7 +1539,7 @@ footer {
       <p>Fica eleito o foro da comarca de Salvador/BA para dirimir quaisquer disputas decorrentes destes Termos.</p>
 
       <h2>8. Contato</h2>
-      <p>Dúvidas sobre os Termos: <a href="mailto:autenticarq.digital@gmail.com">autenticarq.digital@gmail.com</a></p>
+      <p>Dúvidas sobre os Termos: <a href="/cdn-cgi/l/email-protection#b8d9cdccddd6ccd1dbd9cac996dcd1dfd1ccd9d4f8dfd5d9d1d496dbd7d5"><span class="__cf_email__" data-cfemail="a0c1d5d4c5ced4c9c3c1d2d18ec4c9c7c9d4c1cce0c7cdc1c9cc8ec3cfcd">[email&#160;protected]</span></a></p>
     </div>
     <div class="modal-footer">
       <button class="btn btn-ink" onclick="closeModal('termsModal')">Entendi</button>
@@ -1265,7 +1601,7 @@ footer {
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── Modal ──────────────────────────────────────────────────
 function openModal(id) {
   document.getElementById(id).classList.add('open');
@@ -1675,27 +2011,4 @@ function downloadTxt() {
 }
 function downloadJson() {
   if(!result) return;
-  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}));
-  a.download=`autorselo-cert-${result.titulo.replace(/\s+/g,'-')}.json`; a.click();
-}
-function copyTxt(txt) {
-  navigator.clipboard.writeText(txt.trim()).then(() => showToast('Copiado!', '✂️')).catch(()=>{});
-}
-
-function resetAll() {
-  file=null; keyPair=null; result=null;
-  document.getElementById('fileIn').value='';
-  document.getElementById('fileChip').classList.remove('show');
-  document.getElementById('pubKeyPreview').classList.remove('show');
-  document.getElementById('progWrap').classList.remove('show');
-  document.getElementById('logWrap').classList.remove('show');
-  document.getElementById('logWrap').innerHTML='';
-  document.getElementById('resultCard').classList.remove('show');
-  document.getElementById('certText').style.display='none';
-  document.getElementById('btnGen').disabled=false;
-  document.getElementById('progBar').style.width='0';
-  setStep(1); window.scrollTo({top:0,behavior:'smooth'});
-}
-</script>
-</body>
-</html>
+  const a=document.createElement('a'); a.href=URL.c
